@@ -199,7 +199,7 @@ public class Target : MonoBehaviour
         isGameOver = true;
         pie.SetActive(false);
     }
-    void RestartGame()
+    public void RestartGame()
     {
         scoreText.text = "Clown ROULETTE\n\nUse MB1 to aim.\nHit the HIGHLIGHTED body part!";
         score = 0;
